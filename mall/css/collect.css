@@ -1,0 +1,241 @@
+body{
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.header_item_index{
+  position: absolute;
+  left: 30px;
+  font-size: 26px;
+}
+.header_item_index:hover{
+  color:  rgb(148, 216, 243);
+}
+
+.collect_search_input{
+  position: absolute;
+  left: 550px;
+  outline: none;
+  margin-top: 60px;
+  width: 500px;
+  height: 36px;
+  border-radius: 36px;
+  padding-left: 60px;
+  box-shadow: rgb(126, 186, 204) 1px 2px 2px 1px;
+  border:rgb(126, 186, 204) 1px solid;
+}
+
+.collect_search_img img{
+  position: relative;
+  margin-top: 68px;
+  margin-left: 570px;
+  width: 24px;
+  height: 24px;
+}
+.collect_bar{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(3, 3, 3);
+  margin-top:15px ;
+}
+.collect_box{
+  width: 410px;
+  height: 620px;
+  float: left;
+
+}
+.collect_box_small{
+  width: 409px;
+  height: 409px;
+  position: relative;
+
+}
+.collect_box_small_img{
+  width: 409px;
+  height: 409px;
+  margin-left: 200px;
+}
+.collect_box_small_img img{
+  width: 409px;
+  height: 409px;
+}
+.collect_box_mask{
+  width: 200px;
+  height: 200px;
+  display: none;
+  z-index: 999;
+  background-color:rgb(211, 201, 109);
+  opacity: 0.2;
+  cursor: move;
+  position: absolute;
+  left: 200px;
+}
+.collect_box_big{
+width: 500px;
+height: 500px;
+overflow: hidden;
+margin-left: 100px;
+display: none;
+position: absolute;
+right: 266px;
+top: 120px;
+z-index: 9999;
+}
+
+.collect_box_big img{
+  width: 600px;
+  height:600px;
+}
+.collect_phase{
+  float: left;
+  width: 460px;
+  height: 450px;
+  margin-left: 360px;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgb(214, 231, 240);
+
+}
+.collect_phase .product {
+  display: inline-block;
+  background: rgb(97, 155, 170);
+  /* 阴影部分实现 */
+  box-shadow: 4px 4px 3px 0 rgb(70, 111, 134);
+  padding: 0.15rem 0.3rem;
+  margin-bottom: 0.4rem;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+  font-size: 20px;
+  margin-top: 1em;
+  transition: 0.3s;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+  font-size: 18px;
+  color: aliceblue;
+
+}
+.collect_phase .product:hover {
+  transform: scale(1.1);
+}
+.collect_phase .phase_btn{
+  width: 166px;
+  height: 66px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  
+}
+.collect_phase .phase_btn button{
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(214, 189, 105);
+  border: 1px rgb(214, 189, 105) solid ;
+  box-shadow: rgb(153, 135, 76) 1px 2px 2px 1px;
+  outline: none;
+  line-height: 40px;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+  font-size: 16px;
+  
+}
+.collect_phase .phase_btn button:hover{
+  background-color: rgb(105, 183, 214);
+  border: 1px rgb(105, 183, 214)solid ;
+  box-shadow: rgb(68, 118, 138) 1px 2px 2px 1px;
+
+}
+.collect_phase .phase_info{
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  line-height: 40px;
+  font-size: 14px;
+  background-color: rgb(211, 208, 184);
+
+}
+.collect_phase .phase_info .phase_info_left{
+  float: left;
+margin-left: 80px;
+
+}
+.collect_phase .phase_info .phase_info_right{
+  float: left;
+margin-left: 36px;
+}
+.collect_phase .phase_info .phase_info_right span{
+  color: red;
+}
+.collect_phase .phase_info button{
+  width: 120px;
+  height: 28px;
+  border-radius: 20px;
+  border: white 1px solid;
+  outline: none;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+
+}
+.collect_phase .phase_info button:hover{
+  background-color: rgb(221, 163, 163);
+}
+.collect_detail {
+  display: block; /*必须display是block  否则不起作用*/
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  clear: both;
+  line-height: 60px;
+  padding-top: 20px;
+  font-size: 18px;
+  color: rgb(77, 107, 110);
+  }
+  .collect_detail h2,h3{
+    color: darkslategray;
+  }
+  .collect_endBar{
+    width: 1200px;
+    height: 2px;
+    position: relative;
+  margin: 0 auto;
+  background-color: rgb(203, 213, 218);
+
+
+  }
+.collect_endBar .collect_endBar_orgin{
+  width: 1200px;
+  height: 2px;
+}
+.collect_endBar_cover{
+  width: 300px;
+  height: 2px;
+  background-color: rgb(66, 69, 70);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vacant{
+  width: 500px;
+  height: 100px;
+  background-color:rgb(253, 253, 247);
+  opacity: 0.5;
+  clear: both;
+}

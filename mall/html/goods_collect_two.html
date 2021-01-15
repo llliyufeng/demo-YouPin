@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PÄRKLA 派克拉 - YouPin家居</title>
+  <link rel="shortcut icon" href="../img/background/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/collect.css">
+</head>
+
+<body onload="init('province','city')">
+  <!-- header开始 -->
+  <div class="main">
+    <div class="header">
+      <div class="header_center">
+        <a href="index.html">
+          <div class="header_item_index">
+
+            <span>首页</span>
+          </div>
+        </a>
+        <a href="consult.html">
+          <div class="header_item">
+            <div class="short_icon ">
+              <img src="../img/small_icon/phone.svg" alt="">
+            </div>
+            <span>售前咨询</span>
+          </div>
+        </a>
+        <a href="server.html">
+          <div class="header_item">
+            <div class="short_icon">
+              <img src="../img/small_icon/car.svg" alt="">
+            </div>
+            <span>送货服务</span>
+          </div>
+        </a>
+        <a href="policy.html">
+          <div class="header_item">
+            <div class="short_icon">
+              <img src="../img/small_icon/shop.svg" alt="">
+            </div>
+            <span>退换货政策</span>
+          </div>
+        </a>
+        <div class="personal">
+
+          <a href="javaScript:;">登录</a>
+          <a href="login.html" target="_blank">注册</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header结束 -->
+  <input type="text" placeholder="你在找什么?" class="collect_search_input">
+  <a href="javascript:;" class="collect_search_img">
+    <img src="../img/small_icon/search.svg" alt="">
+  </a>
+  <div class="collect_bar"></div>
+  <div class="collect_box">
+    <div class="collect_box_small">
+      <div class="collect_box_small_img">
+        <img src="../img/collet/samll_boxs/two_431.png" alt="">
+      </div>
+      <div class="collect_box_mask">
+        <img src="../img/collet/samll_boxs/mask.png" alt="">
+      </div>
+    </div>
+    <div class="collect_box_big">
+      <img src="../img/collet/samll_boxs/two_825.png" alt="">
+    </div>
+  </div>
+  <div class="collect_phase">
+    <h2>
+      PÄRKLA 派克拉
+      <br>
+      储物袋55x49x19 厘米
+    </h2>
+    <span class=" product">
+
+      价格：20.6元/2件起</span>
+    <div class="phase_btn">
+      <a href="javascript:;"><button>加入购物袋</button></a>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">购物返</div>
+      <div class="phase_info_right">最高返<span>20积分</span></div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">限制</div>
+      <div class="phase_info_right">&nbsp&nbsp&nbsp特价商品不可与优惠券叠加使用</div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">邮费</div>
+      <div class="phase_info_right">&nbsp&nbsp&nbsp满99元免邮</div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">配送&nbsp&nbsp&nbsp</div>
+      <div class="phase_info_right">
+        <select id="province" onchange="select('province','city')"></select>
+        <select id="city"></select>
+      </div>
+    </div>
+    <div class="phase_info">
+      <button>提交订单</button>
+    </div>
+  </div>
+  <class class="collect_detail">
+
+    <h2>商品详情</h2>
+    <div class="collect_detail_text">
+      非常适合存放季节性装饰物、衣物和鞋子以及床上用品等各种物品。
+      <br>
+      <img src="../img/collet/two_5.webp" alt="">
+      <br>
+      <img src="../img/collet/two_6.webp" alt="">
+      <br>
+      <img src="../img/collet/two_7.webp" alt="">
+      <br>
+      可折叠存放，占用空间少。
+      <br>
+      <img src="../img/collet/two_1.webp" alt="">
+      <br>
+      <img src="../img/collet/two_4.webp" alt="">
+      <br>
+      <img src="../img/collet/two_3.webp" alt="">
+      <br>
+      产地见包装
+      <br>
+      设计师
+      <br>
+      IKEA of Sweden
+      <br>
+
+      <h3>材质及保养</h3>
+      布/ 边带:
+      100%聚丙烯纤维
+
+
+      <br>
+      拉锁:
+      100%聚酯纤维
+      <br>
+      不能水洗
+      <br>
+      勿漂白
+      <br>
+      勿滚筒烘干
+      <br>
+      勿熨烫
+      <br>
+      勿干洗
+      <br>
+      <h3>包装</h3>
+      PÄRKLA 派克拉
+      <br>
+      储物袋
+      <br>
+      货号:103.953.845
+      <br>
+      宽度: 60 厘米 | 高度: 60 厘米 | 长度: 19 厘米
+      <br>
+      重量: 0.28公斤
+      <br>
+      包装数量: 2件
+      <br>
+      <img src="../img/collet/two_8.webp" alt="">
+    </div>
+    </div>
+    <div class="collect_endBar">
+      <div class="collect_endBar_orgin">
+      </div>
+      <div class="collect_endBar_cover">
+
+      </div>
+    </div>
+
+    <div class="vacant">
+
+    </div>
+    <script src="../js/collect.js"></script>
+    <script src="../js/location.js"></script>
+
+</body>
+
+</html>

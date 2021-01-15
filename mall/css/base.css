@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  cursor: url(https://blog-static.cnblogs.com/files/liyf-98/bitbug_favicon.ico),
+    auto;
+  background-color: white;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(89, 142, 158);
+  position: fixed;
+  z-index: 999;
+}
+
+.header_center {
+  display: flex;
+  width: 666px;
+  height: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+.header_center div {
+  flex: 1;
+  text-align: center;
+  line-height: 50px;
+}
+
+.short_icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.header_center a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 66px;
+}
+
+.short_icon img {
+  width: 40px;
+  height: 30px;
+}
+
+.header_center .header_item:hover {
+  color: rgb(148, 216, 243);
+  width: 150px;
+  border: 1px #fff solid;
+}
+
+.personal {
+  /* background-color: #fff; */
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.personal a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.personal a:hover {
+  color: rgb(148, 216, 243);
+}
+
+.logo_search {
+  position: relative;
+  width: 1200px;
+  height: 75px;
+  top: 50px;
+}
+
+.logo_search .logo_search_img img {
+  position: absolute;
+  left: 0%;
+  width: 600px;
+  height: 100px;
+  -webkit-user-drag: none;
+}
+
+/* .video {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 233px;
+  height: 36px;
+  border: #5b96b1 5px solid;
+  border-radius: 50px;
+} */
+
+.logo_search .search {
+  position: absolute;
+  right: -100px;
+  top: 0;
+  z-index: 99;
+}
+
+.search input {
+  height: 26px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: absolute;
+  top: 40px;
+  
+  outline: none;
+}
+
+.search_icon img {
+  flex: 1;
+  width: 20px;
+  height: 20px;
+}
+
+.search .search_icon {
+  flex-shrink: 0;
+  /* flex: 1; */
+  position: absolute;
+  top: 45px;
+  left: 160px;
+}
+
+.nav {
+  padding-top: 50px;
+  padding-left: 260px;
+  width: 666px;
+  height: 36px;
+  /* background-color: black; */
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.nav a {
+  flex: 1;
+  text-decoration: none;
+  color: rgb(99, 145, 163);
+  text-align: center;
+  line-height: 36px;
+}
+
+.nav a:hover {
+  color: rgb(80, 205, 255);
+  border-bottom: rgb(27, 27, 68) 1px solid;
+}
+
+.lunbo {
+  width: 900px;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 15px;
+}
+
+.lunbo_img {
+  width: 5400px;
+  height: 100%;
+}
+
+.lunbo_img li {
+  float: left;
+}
+
+.lunbo_img img {
+  width: 900px;
+  height: 500px;
+}
+
+.check {
+  display: flex;
+  width: 999px;
+  height: 36px;
+  /* background-color: black; */
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.check .check_item {
+  flex: 1;
+  text-align: center;
+  line-height: 36px;
+  color: rgb(81, 115, 121);
+}
+
+.check .check_item:hover {
+  color: rgb(141, 171, 199);
+}
+
+.check .check_item img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+
+
+.first_mall {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+.first_mall .bar {
+  width: 100%;
+  height: 30px;
+  /* background-color: black; */
+  text-align: center;
+  line-height: 30px;
+}
+
+.first_mall .bar .bar_color {
+  display: inline-block;
+  color: white;
+  width: 100px;
+  height: 10px;
+  background-color: rgb(99, 145, 163);
+  position: absolute;
+  top: 13px;
+}
+
+.first_mall .bar .bar_lines {
+  display: inline-block;
+  width: 1000px;
+  height: 5px;
+  background-color: gray;
+}
+
+.first_intro {
+  text-align: center;
+  position: relative;
+}
+
+.first_intro p {
+  font-size: 30px;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+  position: absolute;
+  left: 256px;
+  padding-top: 10px;
+}
+
+.first_current {
+  width: 100%;
+  height: 501px;
+  text-align: center;
+}
+
+.first_current .first_goods {
+  float: left;
+  margin-top: 66px;
+}
+
+.first_current .first_goods:nth-child(1) {
+  margin-left: 170px;
+}
+
+.first_current .first_goods:nth-child(1) img {
+  width: 400px;
+  height: 400px;
+}
+
+.first_current .first_goods:nth-child(2) img {
+  width: 400px;
+  height:400px;
+}
+
+.first_current .first_goods:nth-child(3) img {
+  width: 400px;
+  height: 400px;
+}
+
+.Second_mall {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.Second_mall .Second_bar {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.Second_mall .Second_bar .Second_bar_color {
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  background-color: rgb(99, 145, 163);
+  position: absolute;
+  top: 13px;
+}
+
+.Second_mall .Second_bar .Second_bar_lines {
+  display: inline-block;
+  width: 1000px;
+  height: 5px;
+  background-color: gray;
+}
+.btn_more{
+  position: relative;
+}
+.btn_more button {
+  width: 123px;
+  height: 33px;
+  border-radius: 20px;
+  border: tomato 1px;
+  background-color: rgb(211, 90, 90);
+  color: wheat;
+  box-shadow: rgb(177, 75, 75) 1px 2px 2px 4px;
+  outline: none;
+  position: absolute;
+  top: 512px;
+  left: 260px;
+}
+
+
+.btn_more button:focus{
+  outline:0;
+}
+.btn_more button:hover{
+  background-color:rgb(96, 143, 150) ;
+  box-shadow: rgb(79, 131, 122) 1px 2px 2px 4px;
+}
+
+
+.blank {
+  width: 100%;
+  height: 30px;
+  margin-top: 630px;
+  position: relative;
+}
+
+.blank .blank_bar {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.blank .blank_bar .blank_bar_color {
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  background-color: rgb(99, 145, 163);
+  position: absolute;
+  top: 13px;
+}
+
+.blank .blank_bar .blank_bar_lines {
+  display: inline-block;
+  width: 1000px;
+  height: 5px;
+  background-color: gray;
+}
+.goods_pin{
+  width: 1400px;
+  height: 477px;
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+}
+.pin_title{
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+  color:black;
+  margin-left:236px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.goods_pin_item{
+  flex: 1;
+}
+.goods_pin_item img{
+  margin-top: 10px;
+  margin-left: -50px;
+  width: 100%;
+  height: 460px;
+}
+.goods_pin_item:nth-child(1){
+  margin-left:288px;
+}
+.goods_pin_item:nth-child(2){
+  margin-left:8px;
+
+}
+.goods_pin_item:nth-child(3){
+  margin-left:8px;
+
+}
+.goods_pin_item .item_one{
+  /* width: 230px; */
+  width: 400px;
+  height: 216px;
+  border: #ccc 1px solid;
+
+}
+.goods_pin_item .item_two{
+  /* width: 230px; */
+  height: 216px;
+  margin-top: 50px;
+
+  border: #ccc 1px solid;
+
+}
+.goods_pin_item .item_one img{
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  
+}
+.goods_pin_item .item_two img{
+  margin-left: 10px;
+
+  width: 200px;
+  height: 200px;
+}
+.pin_intro{
+  width: 180px;
+  /* background-color: red; */
+  float: left;
+  height: 130px;
+  padding-top: 20px;
+  margin-left: 10px;
+  color: rgb(76, 88, 100);
+  font-size: 14px;
+  position: relative;
+}
+.pin_img img{
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  float: left;
+
+}
+.pin_intro span{
+  display: inline-block;
+  font-size: 20px;
+  color: rgb(111, 138, 165);
+ margin-bottom: 5px;
+}
+.pin_progress {
+  width: 100px;
+  height: 10px;
+  margin-top: 15px;
+}
+.pin_progress .pin_bg_bar{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(176, 233, 247);
+  border-radius: 10px;
+
+}
+.pin_progress .pin_col_bar_one{
+  width: 70%;
+  height: 100%;
+  background-color: rgb(86, 128, 139);
+  border-radius: 10px;
+  margin-top: -10px;
+}
+.pin_progress .pin_col_bar_two{
+  width: 80%;
+  height: 100%;
+  background-color: rgb(86, 128, 139);
+  border-radius: 10px;
+  margin-top: -10px;
+}
+.pin_progress .pin_col_bar_three{
+  width: 65%;
+  height: 100%;
+  background-color: rgb(86, 128, 139);
+  border-radius: 10px;
+  margin-top: -10px;
+}
+.pin_progress .pin_col_bar_four{
+  width: 80%;
+  height: 100%;
+  background-color: rgb(86, 128, 139);
+  border-radius: 10px;
+  margin-top: -10px;
+}
+ .pin_intro_bar{
+  position: absolute;
+  top: 133px;
+  right: -50px;
+  width: 120px;
+  height: 100%;
+}
+ .pin_intro_bar span{
+  font-size: 12px;
+
+}
+.pin_btn{
+  margin-top: 20px;
+}
+.pin_btn button{
+  width: 100px;
+  height: 33px;
+  line-height: 33px;
+  background-color: rgb(104, 137, 156);
+  color: #fff;
+  border: rgb(104, 137, 156) 1px solid;
+  box-shadow: rgb(77, 101, 116) 1px 1px 1px 2px;
+  outline: none;
+  border-radius: 5px;
+}
+.pin_btn button:hover{
+  background-color: rgb(216, 207, 130);
+  color: rgb(194, 81, 81);
+  border: rgb(216, 207, 130) 1px solid;
+  box-shadow: rgb(138, 133, 74) 1px 1px 1px 2px;
+}
+.item_two .pin_intro .pin_intro_bar{
+  position: absolute;
+  top: 115px;
+  /* right: -50px; */
+  width: 120px;
+  height: 100%;
+}

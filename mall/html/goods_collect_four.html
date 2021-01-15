@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> VESKEN 维灰恩 - YouPin家居</title>
+  <link rel="shortcut icon" href="../img/background/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/collect.css">
+</head>
+
+<body onload="init('province','city')">
+  <!-- header开始 -->
+  <div class="main">
+    <div class="header">
+      <div class="header_center">
+        <a href="index.html">
+          <div class="header_item_index">
+            <span>首页</span>
+          </div>
+        </a>
+        <a href="consult.html">
+          <div class="header_item">
+            <div class="short_icon ">
+              <img src="../img/small_icon/phone.svg" alt="">
+            </div>
+            <span>售前咨询</span>
+          </div>
+        </a>
+        <a href="server.html">
+          <div class="header_item">
+            <div class="short_icon">
+              <img src="../img/small_icon/car.svg" alt="">
+            </div>
+            <span>送货服务</span>
+          </div>
+        </a>
+        <a href="policy.html">
+          <div class="header_item">
+            <div class="short_icon">
+              <img src="../img/small_icon/shop.svg" alt="">
+            </div>
+            <span>退换货政策</span>
+          </div>
+        </a>
+        <div class="personal">
+
+          <a href="javaScript:;">登录</a>
+          <a href="login.html" target="_blank">注册</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header结束 -->
+  <input type="text" placeholder="你在找什么?" class="collect_search_input">
+  <a href="javascript:;" class="collect_search_img">
+    <img src="../img/small_icon/search.svg" alt="">
+  </a>
+  <div class="collect_bar"></div>
+  <div class="collect_box">
+    <div class="collect_box_small">
+      <div class="collect_box_small_img">
+        <img src="../img/collet/samll_boxs/four_471.png" alt="">
+      </div>
+      <div class="collect_box_mask">
+        <img src="../img/collet/samll_boxs/mask.png" alt="">
+      </div>
+    </div>
+    <div class="collect_box_big">
+      <img src="../img/collet/samll_boxs/four_760.png" alt="">
+    </div>
+  </div>
+  <div class="collect_phase">
+    <h2>
+      VESKEN 维灰恩
+      <br>
+      搁板柜/56x33x45厘米
+    </h2>
+    <span class=" product">
+
+      价格：30.6元/一件起</span>
+    <div class="phase_btn">
+      <a href="javascript:;"><button>加入购物袋</button></a>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">购物返</div>
+      <div class="phase_info_right">最高返<span>33积分</span></div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">限制</div>
+      <div class="phase_info_right">&nbsp&nbsp&nbsp特价商品不可与优惠券叠加使用</div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">邮费</div>
+      <div class="phase_info_right">&nbsp&nbsp&nbsp满99元免邮</div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">配送&nbsp&nbsp&nbsp</div>
+      <div class="phase_info_right">
+        <select id="province" onchange="select('province','city')"></select>
+        <select id="city"></select>
+      </div>
+    </div>
+    <div class="phase_info">
+      <button>提交订单</button>
+    </div>
+  </div>
+  <class class="collect_detail">
+
+    <h2>商品详情</h2>
+    <div class="collect_detail_text">
+      只需将家具的不同部分扣在一起，即可快速轻松地完成安装，无需使用任何工具。
+      <br>
+      搁板四面均有高边，让里面的物品固定在位。
+      <br>
+      <img src="../img/collet/four_1.webp" alt="">
+      <br>
+      适用于狭小的浴室，搁板上有充足的空间可收纳你的全部化妆品，
+      <br>
+      从洗发液瓶到肥皂和其他小物件，都可以轻松放置。
+      <br>
+      <img src="../img/collet/four_2.webp" alt="">
+      <h3>使用说明</h3>
+      产地见包装
+      <br>
+      设计师
+      David Wahl
+      <h3>材质及保养</h3>
+      聚丙烯塑料（至少20%回收材料）
+      <br>
+      聚丙烯塑料（至少20%回收材料）
+      <br>
+      请用中性皂液擦拭
+      <br>
+      用干净布块擦干
+      <h3>可持续环境</h3>
+      我们在这款产品中使用了回收塑料，
+      <br>
+      从而减少了对全新原材料的消耗，
+      <br>
+      降低了我们对环境的影响。
+      <h3>包装</h3>
+      VESKEN 维灰恩
+      <br>
+      搁板柜
+      <br>
+      货号:803.243.26
+      <br>
+      宽度: 23 厘米 | 高度: 10 厘米 | 长度: 37 厘米
+      <br>
+      重量: 0.86公斤
+      <br>
+      包装数量: 1件
+      <h3>组装说明</h3>
+      <img src="../img/collet/samll_boxs/four1.png" alt="">
+      <br>
+      <img src="../img/collet/samll_boxs/four2.png" alt="">
+      <br>
+      <img src="../img/collet/samll_boxs/four3.png" alt="">
+      <br>
+      <img src="../img/collet/samll_boxs/four5.png" alt="">
+      <br>
+
+      <img src="../img/collet/samll_boxs/four6.png" alt="">
+    </div>
+    </div>
+    <div class="collect_endBar">
+      <div class="collect_endBar_orgin">
+      </div>
+      <div class="collect_endBar_cover">
+
+      </div>
+    </div>
+
+    <div class="vacant">
+
+    </div>
+    <script src="../js/collect.js"></script>
+    <script src="../js/location.js"></script>
+
+</body>
+
+</html>

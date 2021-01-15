@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PIVRING 皮夫凌 - YouPin家居</title>
+  <link rel="shortcut icon" href="../img/background/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/collect.css">
+</head>
+
+<body onload="init('province','city')">
+  <!-- header开始 -->
+  <div class="main">
+    <div class="header">
+      <div class="header_center">
+        <a href="index.html">
+          <div class="header_item_index">
+
+            <span>首页</span>
+          </div>
+        </a>
+        <a href="consult.html">
+          <div class="header_item">
+            <div class="short_icon ">
+              <img src="../img/small_icon/phone.svg" alt="">
+            </div>
+            <span>售前咨询</span>
+          </div>
+        </a>
+        <a href="server.html">
+          <div class="header_item">
+            <div class="short_icon">
+              <img src="../img/small_icon/car.svg" alt="">
+            </div>
+            <span>送货服务</span>
+          </div>
+        </a>
+        <a href="policy.html">
+          <div class="header_item">
+            <div class="short_icon">
+              <img src="../img/small_icon/shop.svg" alt="">
+            </div>
+            <span>退换货政策</span>
+          </div>
+        </a>
+        <div class="personal">
+
+          <a href="javaScript:;">登录</a>
+          <a href="login.html" target="_blank">注册</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header结束 -->
+  <input type="text" placeholder="你在找什么?" class="collect_search_input">
+  <a href="javascript:;" class="collect_search_img">
+    <img src="../img/small_icon/search.svg" alt="">
+  </a>
+  <div class="collect_bar"></div>
+  <div class="collect_box">
+    <div class="collect_box_small">
+      <div class="collect_box_small_img">
+        <img src="../img/collet/samll_boxs/three_445.png" alt="">
+      </div>
+      <div class="collect_box_mask">
+        <img src="../img/collet/samll_boxs/mask.png" alt="">
+      </div>
+    </div>
+    <div class="collect_box_big">
+      <img src="../img/collet/samll_boxs/three_767.png" alt="">
+    </div>
+  </div>
+  <div class="collect_phase">
+    <h2>
+      PIVRING 皮夫凌
+      <br>
+      背包/12公升
+
+    </h2>
+    <span class=" product">
+
+      价格：66.6元/1件起</span>
+    <div class="phase_btn">
+      <a href="javascript:;"><button>加入购物袋</button></a>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">购物返</div>
+      <div class="phase_info_right">最高返<span>42积分</span></div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">限制</div>
+      <div class="phase_info_right">&nbsp&nbsp&nbsp特价商品不可与优惠券叠加使用</div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">邮费</div>
+      <div class="phase_info_right">&nbsp&nbsp&nbsp满99元免邮</div>
+    </div>
+    <div class="phase_info">
+      <div class="phase_info_left">配送&nbsp&nbsp&nbsp</div>
+      <div class="phase_info_right">
+        <select id="province" onchange="select('province','city')"></select>
+        <select id="city"></select>
+      </div>
+    </div>
+    <div class="phase_info">
+      <button>提交订单</button>
+    </div>
+  </div>
+  <class class="collect_detail">
+
+    <h2>商品详情</h2>
+    <div class="collect_detail_text">
+
+      布料采用再生聚酯纤维制成。通过变废为宝，我们朝着更可持续的未来又迈进了一步。
+      <br>
+      正面有一个网状隔层，非常适合用于放置帽子、水瓶或披肩。
+      <br>
+      这款背包的肩带易于调节，可将背包牢牢固定。
+      <br>
+      这款背包采用的是防水布料。
+      <br>
+      可以容纳午餐盒、备用衣物和14英寸笔记本电脑或平板电脑。
+      <br>
+      水瓶和棒球帽都可放入网眼隔层中。非常适合上学时携带或作为备用包袋。
+      <br>
+      <img src="../img/collet/three_1.webp" alt="">
+      <br>
+      <h3>使用说明</h3>
+      产地见包装
+      <br>
+      可搭配 SKYNKE 辛恩格 可折叠手提袋。
+      <br>
+      设计师
+      <br>
+      E Thomasson/P Süssmann
+      <br>
+      <h3>材质及保养</h3>
+      面料:
+      100% 聚酯纤维（至少90%再生材料）
+      <br>
+      拉链:
+      PET塑料
+      <br>
+      手洗，水温不超过40°C。
+      <br>
+      勿漂白
+      <br>
+      勿滚筒烘干
+      <br>
+      勿熨烫
+      <br>
+      勿干洗
+      <h3>可持续环境</h3>
+      我们在这款产品的布料中使用了再生聚酯纤维，
+      <br>
+      从而减少了全新原材料的消耗，降低了我们对环境的影响。
+      <h3>包装</h3>
+      PIVRING 皮夫凌
+      <br>
+      背包
+      <br>
+      货号:004.413.72
+      <br>
+      宽度: 30厘米 | 高度: 5 厘米 | 长度: 39厘米
+      <br>
+      重量: 0.40公斤
+      <br>
+      包装数量: 1件
+      <br>
+      <br>
+      <img src="../img/collet/bag.webp" alt="">
+      <br>
+
+    </div>
+    </div>
+    <div class="collect_endBar">
+      <div class="collect_endBar_orgin">
+      </div>
+      <div class="collect_endBar_cover">
+
+      </div>
+    </div>
+
+    <div class="vacant">
+
+    </div>
+    <script src="../js/collect.js"></script>
+    <script src="../js/location.js"></script>
+
+</body>
+
+</html>

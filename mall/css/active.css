@@ -1,0 +1,91 @@
+.active{
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  font-size: 23px;
+  color: rgb(92, 91, 91);
+  margin-top: 20px;
+}
+.active p{
+  padding-top: 28px;
+}
+
+.active p:hover{
+text-decoration: underline;
+color: rgb(9, 116, 116);
+font-size: 30px;
+background-color: rgb(233, 213, 213);
+opacity: .6;
+line-height: 36px;
+
+}
+.active span{
+  display: inline-block;
+  width: 80px;
+}
+.server{
+  width: 1200px;
+  height: 230px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 30px;
+}
+.server .server_cus{
+  flex: 1;
+  border-right: 1px gray solid;
+  box-shadow: rgb(104, 101, 101) 1px 2px 2px 1px;
+}
+.server .intro{
+  flex: 1;
+  border-right: 1px gray solid;
+  box-shadow: rgb(104, 101, 101) 1px 2px 2px 1px;
+
+}
+.server .erwm{
+  flex: 1;
+  border-right: 1px gray solid;
+  box-shadow: rgb(104, 101, 101) 1px 2px 2px 1px;
+}
+.icon .icon_ser{
+  width: 100px;
+  height: 100px;
+  border: 1px gray solid;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.icon .icon_ser img{
+  width: 40px;
+  height: 40px;
+  padding-top: 15px;
+}
+.icon span:hover{
+text-decoration: underline;
+color: rgb(112, 142, 161);
+}
+ .erwm img{
+width: 100px;
+height: 100px;
+padding-top: 20px;
+}
+.erwm{
+  font-size: 16px;
+}
+.erwm p:hover{
+  color: aquamarine;
+}
+.focus{
+  vertical-align: middle;
+}
+.intro .focus img{
+width: 40px;
+height: 40px;
+padding-top: 10px;
+}
+.va{
+  width: 100%;
+  height: 20px;
+  background-color: #fff;
+}

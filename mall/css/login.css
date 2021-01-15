@@ -1,0 +1,131 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #7ea1af;
+  position: relative;
+  cursor: url(https://blog-static.cnblogs.com/files/liyf-98/bitbug_favicon.ico),
+    auto;
+  background: url("../img/background/login.jpg");
+  overflow-x: hidden;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+
+}
+.personal {
+  color: rgb(207, 233, 233);
+}
+.logo_search_img img {
+  -webkit-user-drag: none;
+}
+
+.title_line {
+  width: 400px;
+  height: 36px;
+  position: absolute;
+  left: 550px;
+  top: 160px;
+}
+
+/* .title_line .lines {
+
+  display: inline-block;
+  width: 0px;
+  border: #7ea1af 4px solid;
+  height: 30px;
+} */
+.logo_text {
+  position: absolute;
+  width: 100%;
+  height: 66px;
+  /* background-color: red; */
+  /* text-align: center; */
+  padding-left: 700px;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+  font-size: 20px;
+  line-height: 66px;
+}
+
+.word_intro {
+  position: absolute;
+  top: 8px;
+
+  color: #fdfeff;
+}
+
+.login {
+  width: 400px;
+  height: 460px;
+  position: absolute;
+  left: 70%;
+  margin-left: -220px;
+  padding-left: 80px;
+  padding-top: 20px;
+  margin-top: 80px;
+  /* border: rgb(99, 145, 163) 1px solid; */
+}
+
+.login .login_admin {
+  width: 100%;
+  height: 30px;
+}
+
+.login .login_password {
+  margin-top: 30px;
+}
+
+.text {
+  margin-top: 30px;
+  color: #f0f1f1;
+  font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+  font-size: 21px;
+  display: inline-block;
+}
+
+input::placeholder {
+  color: rgba(99, 145, 163, 0.3);
+}
+
+.login_has {
+  width: 400px;
+  height: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.login_has a {
+  color: #f3f3f3;
+  position: absolute;
+  right: 0;
+}
+
+.vancant {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 700px;
+  color: white;
+}
+
+.header {
+  background: url("../img/background/bar.png");
+}
+
+.login_btn button{
+width: 120px;
+height: 33px;
+background-color: rgb(130, 177, 199);
+color: white;
+border: rgb(130, 177, 199) 1px solid;
+margin-top: 45px;
+margin-left: 60px;
+font-family: "Microsoft JhengHei", "Microsoft YaHei", Tohoma, Arial;
+
+}
+.login input{
+  outline: none;
+  border-radius: 10px ;
+  border: white 1px solid;
+  padding-left: 3px;
+}
+.login_text{
+  color: #2c383d;
+}
